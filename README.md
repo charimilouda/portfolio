@@ -9,7 +9,7 @@ Bienvenue sur mon portfolio personnel !
 ✅ Navigation fluide 
 ✅ Section contact pour les opportunités de collaboration  
 ## 📸 Aperçu  
-![Aperçu du Portfolio](lien-vers-ton-image-ou-démo)  
+![Aperçu du Portfolio](lienversvideodemo)  
 ## 📬 Me Contacter  
 📧 **Email** : [charimilouda@gmail.com](mailto:charimilouda@gmail.com@gmail.com)  
 💼 **LinkedIn** : [CHARIMilouda](https://www.linkedin.com/in/milouda-chari/)  
