@@ -1,6 +1,8 @@
 # 🚀 Mon Portfolio  
 
 Bienvenue sur mon portfolio personnel !
+🔗 **Accédez à mon portfolio ici** 👉 [Mon Portfolio](https://portfoliocharimilouda.netlify.app/)  
+
 ## 🔥 Technologies Utilisées  
  HTML, CSS, JavaScript 
  ## 📌 Fonctionnalités  
