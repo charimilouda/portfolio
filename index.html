@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHARI Milouda | PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">CHARI Milouda</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">CHARI Milouda
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/image1.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">CHARI Milouda</h1>
+        <p class="section__text__p2">Software engeneering student at ENSAO</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv_CHARIMilouda.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/milouda-chari/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/charimilouda'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/soutenance.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p class="sub-text">
+              I am a passionate and driven young woman, fascinated by the limitless world of technology and the power of continuous learning.
+               What fuels my ambition is not just the desire to excel but the will to make a difference and leave a <strong>positive impact</strong> on those around me. 
+            </p>
+            
+            <p  class="sub-text">
+              Through my journey, from my early steps in software development to my current path as an engineering student,
+               I’ve learned that growth comes from curiosity, persistence, and the courage to step outside one’s comfort zone. 
+               I am not just a developer ; I am someone who believes in <strong>human potential</strong>, in the<strong>power of ideas</strong> , and in the <strong>strength of resilience</strong>.
+                Whether coding, solving problems, or exchanging insights, I thrive on challenges that push me forward.
+            </p>
+            
+            <p  class="sub-text">
+              Beyond the lines of code, I have a deep appreciation for personal growth and psychology, believing that our thoughts and emotions shape our success. 
+            </p>
+            <p class="sub-text">
+              If you're looking for someone who combines <strong>technical expertise</strong> with <strong>emotional intelligence</strong>, <strong>adaptability</strong>, and a <strong>true passion</strong> for <strong>innovation</strong>, let’s connect.
+               I am ready to bring my energy, skills, and vision to your projects. 
+            </p>
+          </div>
+          <div class="about-containers">
+            <!--<div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>-->
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="details-container">
+        <img
+          src="./assets/group.png"
+          alt="Education icon"
+          class="icon"
+        />
+        <h3 class="blue-title">Éducation</h3>  
+        <p class="text-c"><strong> National School of Applied Sciences, OUJDA</strong> <br>  
+          <span class="sub-text"> 2024-2025 : Second year of engineering cycle - Computer Science
+          </span></p>
+          <p class="text-c"><strong> National School of Applied Sciences, OUJDA</strong> <br>  
+          <span class="sub-text"> 2023-2024 : First year of engineering cycle - Computer Science
+          </span></p> 
+        <p class="text-c"><strong>Higher School Of Technology, OUJDA</strong> <br>  
+          <span class="sub-text"> 2021-2023 : Technical university diploma - Computer applications developer 
+        </p>  
+        <p class="text-c"><strong>AL-FATH HIGH SCHOOL, TAOURIRT</strong> <br>  
+          <span class="sub-text"> 2018-2021 :  Bachelor's degree in physical sciences </p>  
+     
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+          <div class="skills-container">
+            <!-- HTML5 -->
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+        
+            <!-- CSS3 -->
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS3</p>
+            </div>
+        
+            <!-- JavaScript -->
+            <div class="skill-item">
+              <i class="fab fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+            
+            <!-- PHP7 -->
+            <div class="skill-item">
+              <i class="fab fa-php"></i>
+              <p>PHP7</p>
+            </div>
+            <!-- Spring Boot -->
+            <div class="skill-item">
+              <i class="devicon-spring-plain"></i>
+              <p>Spring Boot</p>
+            </div>
+            <!-- React JS -->
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <p>React JS</p>
+            </div>
+            <!-- Angular -->
+            <div class="skill-item">
+              <i class="fab fa-angular"></i>
+              <p>Angular</p>
+            </div>
+            
+        
+            <!-- JavaFX -->
+            <div class="skill-item">
+              <i class="fab fa-java"></i>
+              <p>JavaFX</p>
+            </div>
+            
+            <!-- Symfony -->
+            <div class="skill-item">
+              <i class="devicon-symfony-original"></i>
+              <p>Symfony</p>
+            </div>
+            <!-- Flutter -->
+            <div class="skill-item">
+              <i class="devicon-flutter-plain"></i>
+              <p>Flutter</p>
+            </div>
+            <!-- JEE -->
+            <div class="skill-item">
+              <i class="devicon-java-plain"></i>
+              <p>JEE</p>
+            </div>
+            <!-- MySQL -->
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <p>MySQL</p>
+            </div>
+            <!-- Firebase -->
+            <div class="skill-item">
+              <i class="devicon-firebase-plain"></i>
+              <p>Firebase</p>
+            </div>
+             
+            <!-- Oracle -->
+            <div class="skill-item">
+              <i class="devicon-oracle-original"></i>
+              <p>Oracle</p>
+            </div>
+            <!-- MongoDB -->
+            <div class="skill-item">
+              <i class="devicon-mongodb-plain"></i>
+              <p>MongoDB</p>
+            </div>  
+            <!-- UML -->
+            <div class="skill-item">
+              <i class="fas fa-project-diagram"></i>
+              <p>UML</p>
+            </div>
+            <!-- Linux -->
+            <div class="skill-item">
+              <i class="fab fa-linux"></i>
+              <p>Linux</p>
+            </div>
+          <!-- Git -->
+          <div class="skill-item">
+            <i class="fab fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+          
+          <!-- Figma -->
+          <div class="skill-item">
+            <i class="fab fa-figma"></i>
+            <p>Figma</p>
+          </div>
+        </section>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-container">
+        <!-- Stage 1 -->
+        <div class="experience-item">
+          <h3>Full-Stack Developer Intern </h3>
+          <p class="company">EVA FACTORY, OUJDA</p>
+          <p class="date">Mai – June 2023</p>
+          <p class="mission"> Development of a National Ecosystem for Morocco - A mobile application for visitors, along with an admin platform.</p>
+        </div>
+        <!-- Stage 2 -->
+        <div class="experience-item">
+          <h3>Final year project </h3>
+          <p class="company">Higher School Of Technology, OUJDA</p>
+          <p class="date">February – April 2023</p>
+          <p class="mission">The development of a desktop application for managing our field DAI at the Higher School of Technology in Oujda.</p>
+        </div>
+        <!-- Stage 3 -->
+        <div class="experience-item">
+          <h3>Full-Stack Developer Intern </h3>
+          <p class="company">Préfecture d’Oujda-Angad</p>
+          <p class="date">July 2022</p>
+          <p class="mission"> Development of a mobile application for managing internship applications (submission and processing of internship applications).</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My </p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/bladi.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bladi</h2>
+            <p class="description-project">
+              A digital solution to create a national tourism ecosystem in Morocco, featuring a mobile app and an admin platform. This solution highlights the country's tourism potential, promoting Morocco as a top destination while making it easier for tourists to explore. It helps businesses and tour operators connect with travelers for a more personalized experience.
+               <br>
+              <span class="flutter">#Flutter</span> <span class="html">#HTML +js </span><span class="mysql">#MySQL</span> <span class="php">#PHP</span>
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/BladiProject'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/BladiProject'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/DAIFY.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">DAIFY</h2>
+            <p class="description-project">
+              Agile methodology - Scrum, with 2 team members. 
+              DAIFY is our final-year academic project. It manage Software development field at the Higher School Of Technology Oujda.  
+              It enhances communication and facilitates the exchange of information and documents between students, professors, and the program coordinator.<br>
+              <span class="flutter">#JAVAFX</span> <span class="mysql">#MySQL</span> <span class="jira">#Jira</span>
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/gestionDAI'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/gestionDAI'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ri7laguide.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ri7la guide</h2>
+            <p class="description-project">
+              Agile methodology - Scrum, with 4 team members. 
+              Develop a mobile application that allows users to search for tourist destinations, 
+              choose places to visit based on categories, and save favorite locations. It enables 
+              users to view places on Google Maps for easy navigation. 
+              Additionally, it provides detailed information about each destination to help users make informed decisions.
+              <br>
+              <span class="flutter">#JAVA</span> <span class="html">#XML </span><span class="mysql">#MySQL</span> 
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/TravellApp'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/TravellApp'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/GPMYY.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">GPMYY</h2>
+            <p class="description-project">
+              A project management application that helps project managers plan, execute, and track projects efficiently.
+               It allows users to plan and monitor the progress of their tasks, collaborate effectively within teams,
+                and ensure transparent management of tasks for seamless organization and real-time tracking.
+              <br>
+              <span class="springBoot">#SpringBoot</span> <span class="react">#REACT </span><span class="mysql">#MySQL</span> 
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/GPMyy_'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/GPMyy_'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/meloumood.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">MelouMood</h2>
+            <p class="description-project">
+              MelouMood is a social networking platform that connects food enthusiasts for sharing 
+              and discovering recipes. Users can post, rate, comment, and save their favorite recipes while interacting
+               with a vibrant community. The platform fosters a collaborative space for culinary exploration and inspiration.
+               <br>
+              <span class="springBoot">#SpringBoot</span> <span class="angular">#Angular </span><span class="mysql">#MySQL</span> 
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/yourIntern.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">YourIntern</h2>
+            <p class="description-project">
+              YourIntern is a mobile application designed to streamline the internship application process. It offers features that facilitate easy access to data, reduce the use of paper documents, and automate the acquisition of internship applications, making the process more efficient and organized.<br>
+              <span class="flutter">#Flutter</span> <span class="flutter">#DART</span> <span class="mysql">#MySQL</span> 
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/GestionDemandeStage'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/WilayaInternApp'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/KeepContact.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">KeepContact</h2>
+            <p class="description-project">
+              A contact management application that enables users to efficiently manage their contacts by adding, editing, and viewing their contact information.
+              <br>
+              <span class="symfony">#Symfony</span> <span class="twig">#TWIG </span><span class="mysql">#MySQL</span> 
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/ContactApp'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/ContactApp'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/portfolio.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <p class="description-project">
+              My portfolio showcases a variety of projects demonstrating my skills in software development, web and mobile applications.
+              <br>
+              <span class="html">#HTML +js </span><span class="css">#css</span> <span class="js">#JS</span>
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/portfolio'"
+              >
+                Github
+              </button>-->
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/charimilouda/portfolio'"
+              >
+                View more
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/NexaRecruit.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">NexaRecruit</h2>
+            <p class="description-project">
+              Currently working on : a complete solution for creating Autonomous AI Agents executing multiple tasks  without human intervention.              <br>
+              <span class="springBoot">#Spring Boot </span>
+              <span class="react">#Recat</span> 
+              <span class="tailwind">#Tailwind</span>
+              <span class="mongodb">#MongoDB</span>
+              <span class="#LangChain">#LangChain</span>
+              <span class="gemini">#Gemini</span>
+            </p>
+            <div class="btn-container">
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>-->
+
+              
+              <!--<button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                View more
+              </button>-->
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">charimilouda@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/milouda-chari/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 CHARI Milouda. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
