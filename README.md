@@ -6,7 +6,7 @@ Bienvenue sur mon portfolio personnel !
  ## 📌 Fonctionnalités  
 ✅ Design interactif et responsive  
 ✅ Présentation de mes projets et compétences  
-✅ Navigation fluide 
+✅ Navigation fluide
 ✅ Section contact pour les opportunités de collaboration  
 ## 📸 Aperçu  
 ![Aperçu du Portfolio](lienversvideodemo)  
