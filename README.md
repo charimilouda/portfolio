@@ -4,9 +4,8 @@ Bienvenue sur mon portfolio personnel !
 ## 🔥 Technologies Utilisées  
  HTML, CSS, JavaScript 
  ## 📌 Fonctionnalités  
-✅ Design interactif et responsive  
+✅ Design interactif, responsive  et Navigation fluide
 ✅ Présentation de mes projets et compétences  
-✅ Navigation fluide
 ✅ Section contact pour les opportunités de collaboration  
 ## 📸 Aperçu  
 ![Aperçu du Portfolio](lienversvideodemo)  
